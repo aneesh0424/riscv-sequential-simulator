@@ -1,20 +1,2764 @@
-**** module/scope: sll64_tb
+**** module/scope: alu_64_bit_tb
      Flip-Flops   : 0
      Logic Gates  : 0
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
-**** module/scope: sll64_tb.run_test
+**** module/scope: alu_64_bit_tb.run_test
      Flip-Flops   : 0
      Logic Gates  : 0
-**** module/scope: sll64_tb.uut
+**** module/scope: alu_64_bit_tb.run_test_rz
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut
+     Flip-Flops   : 0
+     Logic Gates  : 0
+     LPM[5]: 4 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: alu_64_bit_tb.uut.add_u
+     Flip-Flops   : 0
+     Logic Gates  : 129
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[0].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[1].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[2].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[3].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[4].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[5].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[6].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[7].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[8].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[9].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[10].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[11].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[12].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[13].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[14].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[15].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[16].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[17].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[18].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[19].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[20].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[21].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[22].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[23].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[24].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[25].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[26].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[27].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[28].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[29].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[30].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[31].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[32].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[33].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[34].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[35].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[36].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[37].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[38].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[39].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[40].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[41].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[42].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[43].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[44].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[45].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[46].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[47].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[48].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[49].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[50].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[51].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[52].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[53].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[54].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[55].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[56].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[57].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[58].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[59].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[60].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[61].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[62].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.add_u.genblk1[63].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.and_u
+     Flip-Flops   : 0
+     Logic Gates  : 128
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.and_u.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u
+     Flip-Flops   : 0
+     Logic Gates  : 128
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.or_u.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sll_u
      Flip-Flops   : 0
      Logic Gates  : 897
      EQUALITY[64]: 1 units
      MUX[2]: 384 slices
+**** module/scope: alu_64_bit_tb.uut.slt_u
+     Flip-Flops   : 0
+     Logic Gates  : 129
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst
+     Flip-Flops   : 0
+     Logic Gates  : 130
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[0]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[0].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[1]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[1].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[2]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[2].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[3]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[3].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[4]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[4].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[5]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[5].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[6]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[6].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[7]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[7].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[8]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[8].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[9]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[9].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[10]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[10].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[11]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[11].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[12]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[12].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[13]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[13].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[14]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[14].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[15]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[15].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[16]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[16].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[17]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[17].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[18]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[18].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[19]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[19].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[20]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[20].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[21]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[21].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[22]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[22].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[23]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[23].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[24]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[24].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[25]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[25].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[26]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[26].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[27]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[27].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[28]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[28].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[29]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[29].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[30]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[30].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[31]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[31].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[32]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[32].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[33]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[33].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[34]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[34].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[35]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[35].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[36]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[36].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[37]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[37].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[38]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[38].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[39]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[39].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[40]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[40].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[41]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[41].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[42]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[42].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[43]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[43].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[44]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[44].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[45]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[45].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[46]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[46].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[47]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[47].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[48]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[48].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[49]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[49].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[50]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[50].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[51]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[51].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[52]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[52].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[53]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[53].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[54]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[54].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[55]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[55].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[56]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[56].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[57]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[57].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[58]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[58].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[59]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[59].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[60]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[60].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[61]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[61].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[62]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[62].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[63]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.slt_u.sub_inst.genblk2[63].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u
+     Flip-Flops   : 0
+     Logic Gates  : 128
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst
+     Flip-Flops   : 0
+     Logic Gates  : 130
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[0]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[0].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[1]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[1].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[2]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[2].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[3]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[3].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[4]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[4].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[5]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[5].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[6]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[6].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[7]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[7].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[8]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[8].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[9]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[9].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[10]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[10].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[11]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[11].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[12]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[12].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[13]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[13].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[14]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[14].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[15]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[15].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[16]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[16].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[17]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[17].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[18]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[18].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[19]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[19].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[20]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[20].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[21]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[21].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[22]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[22].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[23]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[23].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[24]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[24].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[25]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[25].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[26]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[26].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[27]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[27].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[28]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[28].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[29]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[29].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[30]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[30].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[31]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[31].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[32]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[32].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[33]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[33].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[34]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[34].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[35]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[35].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[36]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[36].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[37]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[37].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[38]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[38].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[39]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[39].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[40]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[40].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[41]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[41].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[42]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[42].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[43]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[43].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[44]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[44].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[45]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[45].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[46]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[46].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[47]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[47].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[48]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[48].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[49]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[49].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[50]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[50].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[51]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[51].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[52]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[52].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[53]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[53].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[54]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[54].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[55]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[55].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[56]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[56].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[57]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[57].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[58]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[58].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[59]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[59].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[60]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[60].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[61]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[61].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[62]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[62].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[63]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sltu_u.sub_inst.genblk2[63].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sra_u
+     Flip-Flops   : 0
+     Logic Gates  : 896
+     EQUALITY[64]: 1 units
+     MUX[2]: 384 slices
+**** module/scope: alu_64_bit_tb.uut.srl_u
+     Flip-Flops   : 0
+     Logic Gates  : 897
+     EQUALITY[64]: 1 units
+     MUX[2]: 384 slices
+**** module/scope: alu_64_bit_tb.uut.sub_u
+     Flip-Flops   : 0
+     Logic Gates  : 130
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[0]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[0].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[1]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[1].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[2]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[2].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[3]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[3].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[4]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[4].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[5]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[5].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[6]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[6].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[7]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[7].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[8]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[8].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[9]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[9].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[10]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[10].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[11]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[11].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[12]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[12].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[13]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[13].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[14]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[14].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[15]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[15].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[16]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[16].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[17]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[17].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[18]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[18].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[19]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[19].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[20]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[20].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[21]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[21].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[22]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[22].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[23]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[23].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[24]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[24].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[25]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[25].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[26]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[26].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[27]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[27].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[28]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[28].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[29]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[29].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[30]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[30].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[31]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[31].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[32]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[32].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[33]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[33].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[34]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[34].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[35]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[35].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[36]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[36].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[37]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[37].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[38]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[38].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[39]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[39].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[40]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[40].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[41]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[41].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[42]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[42].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[43]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[43].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[44]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[44].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[45]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[45].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[46]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[46].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[47]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[47].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[48]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[48].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[49]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[49].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[50]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[50].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[51]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[51].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[52]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[52].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[53]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[53].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[54]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[54].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[55]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[55].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[56]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[56].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[57]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[57].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[58]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[58].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[59]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[59].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[60]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[60].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[61]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[61].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[62]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[62].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[63]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: alu_64_bit_tb.uut.sub_u.genblk2[63].inst
+     Flip-Flops   : 0
+     Logic Gates  : 5
+**** module/scope: alu_64_bit_tb.uut.xor_u
+     Flip-Flops   : 0
+     Logic Gates  : 128
+     EQUALITY[64]: 1 units
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[0]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[1]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[2]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[3]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[4]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[5]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[6]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[7]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[8]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[9]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[10]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[11]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[12]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[13]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[14]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[15]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[16]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[17]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[18]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[19]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[20]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[21]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[22]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[23]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[24]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[25]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[26]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[27]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[28]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[29]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[30]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[31]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[32]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[33]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[34]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[35]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[36]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[37]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[38]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[39]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[40]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[41]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[42]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[43]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[44]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[45]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[46]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[47]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[48]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[49]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[50]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[51]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[52]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[53]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[54]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[55]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[56]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[57]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[58]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[59]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[60]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[61]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[62]
+     Flip-Flops   : 0
+     Logic Gates  : 1
+**** module/scope: alu_64_bit_tb.uut.xor_u.genblk1[63]
+     Flip-Flops   : 0
+     Logic Gates  : 1
 **** TOTALS
      Flip-Flops   : 0
-     Logic Gates  : 897
-     EQUALITY[64]: 1 units
-     MUX[2]: 384 slices
-     LOG[13]: 1 unaccounted
-     LOG[14]: 1 unaccounted
+     Logic Gates  : 5514
+     EQUALITY[64]: 12 units
+     MUX[2]: 1152 slices
+     LPM[5]: 4 unaccounted
+     LOG[13]: 2 unaccounted
+     LOG[14]: 2 unaccounted
