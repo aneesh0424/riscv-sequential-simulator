@@ -10,7 +10,6 @@ module Data_Memory_tb;
     reg [63:0] write_data;
     wire [63:0] read_data;
 
-    // Instantiate DUT
     Data_Memory uut (
         .clk(clk),
         .reset(reset),
@@ -25,7 +24,6 @@ module Data_Memory_tb;
 
     initial begin
 
-        // Optional waveform dump
         $dumpfile("data_mem.vcd");
         $dumpvars(0, Data_Memory_tb);
 
