@@ -46,10 +46,6 @@ module pc_tb;
         $dumpfile("pc_tb.vcd");
         $dumpvars(0, pc_tb);
         
-        reset = 0;
-        pc_in = 64'h0;
-        #10;
-        
         run_test(1, 64'h00ADB12FDEADBEEF, 1, 64'h0);
         run_test(2, 64'h000000000ABCDEF4, 0, 64'h000000000ABCDEF4);
         
