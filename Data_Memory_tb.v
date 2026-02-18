@@ -21,7 +21,6 @@ module Data_Memory_tb;
         .read_data(read_data)
     );
 
-    // 🔷 Clock Generation (10 ns period)
     always #5 clk = ~clk;
 
     initial begin
@@ -40,26 +39,17 @@ module Data_Memory_tb;
         $display("--------------------------------------------------");
         $display("Time\tMemWrite MemRead Address   WriteData          ReadData");
         $display("--------------------------------------------------");
-
-        // =====================================================
-        // RESET MEMORY
-        // =====================================================
+        
         #10;
         reset = 0;
-
-        // =====================================================
-        // WRITE 64-bit value to address 100
-        // =====================================================
+        
         address = 64'd100;
         write_data = 64'h1122334455667788;
         MemWrite = 1;
         #10;
 
         MemWrite = 0;
-
-        // =====================================================
-        // READ FROM SAME ADDRESS
-        // =====================================================
+        
         MemRead = 1;
         #10;   // One clock latency
 
@@ -68,10 +58,7 @@ module Data_Memory_tb;
                  address, write_data, read_data);
 
         MemRead = 0;
-
-        // =====================================================
-        // WRITE ANOTHER VALUE
-        // =====================================================
+        
         address = 64'd200;
         write_data = 64'hAABBCCDDEEFF0011;
         MemWrite = 1;
@@ -79,7 +66,6 @@ module Data_Memory_tb;
 
         MemWrite = 0;
 
-        // READ BACK
         MemRead = 1;
         #10;
 
