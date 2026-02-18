@@ -1,0 +1,79 @@
+$date
+	Thu Feb 19 00:47:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Immediate_Generation_tb $end
+$var wire 64 ! imm [63:0] $end
+$var reg 32 " instr [31:0] $end
+$scope module uut $end
+$var wire 64 # imm [63:0] $end
+$var wire 32 $ instr [31:0] $end
+$var wire 7 % opcode [6:0] $end
+$var parameter 7 & B_type $end
+$var parameter 7 ' I_type $end
+$var parameter 7 ( S_type $end
+$var parameter 7 ) load_type $end
+$var reg 64 * imm_reg [63:0] $end
+$upscope $end
+$scope task run_test $end
+$var reg 64 + expected [63:0] $end
+$var reg 32 , t_instr [31:0] $end
+$var reg 5 - tno [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 )
+b100011 (
+b10011 '
+b1100011 &
+$end
+#0
+$dumpvars
+b1 -
+b1000010000000010010011 ,
+b10 +
+b10 *
+b10011 %
+b1000010000000010010011 $
+b10 #
+b1000010000000010010011 "
+b10 !
+$end
+#5000
+b1111111111111111111111111111111111111111111111111111111111111111 !
+b1111111111111111111111111111111111111111111111111111111111111111 #
+b1111111111111111111111111111111111111111111111111111111111111111 *
+b11 %
+b11111111111100010000000010000011 "
+b11111111111100010000000010000011 $
+b1111111111111111111111111111111111111111111111111111111111111111 +
+b11111111111100010000000010000011 ,
+b10 -
+#10000
+b1000 !
+b1000 #
+b1000 *
+b100011 %
+b1000001010010000100011 "
+b1000001010010000100011 $
+b1000 +
+b1000001010010000100011 ,
+b11 -
+#15000
+b100 !
+b100 #
+b100 *
+b1100011 %
+b1000001000001001100011 "
+b1000001000001001100011 $
+b100 +
+b1000001000001001100011 ,
+b100 -
+#40000

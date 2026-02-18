@@ -1,18 +1,12 @@
-**** module/scope: adder64_tb
+**** module/scope: Immediate_Generation
      Flip-Flops   : 0
      Logic Gates  : 0
+     LPM[5]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
-**** module/scope: adder64_tb.run_test
-     Flip-Flops   : 0
-     Logic Gates  : 0
-**** module/scope: adder64_tb.uut
-     Flip-Flops   : 0
-     Logic Gates  : 128
-     ADDER[64]: 1 units
 **** TOTALS
      Flip-Flops   : 0
-     Logic Gates  : 128
-     ADDER[64]: 1 units
+     Logic Gates  : 0
+     LPM[5]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
