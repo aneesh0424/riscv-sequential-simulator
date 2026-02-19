@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+`include "Data_Memory.v"
 
 module Data_Memory_tb;
 
@@ -10,74 +11,62 @@ module Data_Memory_tb;
     reg [63:0] write_data;
     wire [63:0] read_data;
 
-    Data_Memory uut (
+    Data_Memory uut(
         .clk(clk),
         .reset(reset),
-        .address(address),
-        .write_data(write_data),
         .MemRead(MemRead),
         .MemWrite(MemWrite),
+        .address(address),
+        .write_data(write_data),
         .read_data(read_data)
     );
 
-    always #5 clk = ~clk;
-
     initial begin
-
-        $dumpfile("data_mem.vcd");
-        $dumpvars(0, Data_Memory_tb);
-
         clk = 0;
-        reset = 1;
-        MemRead = 0;
-        MemWrite = 0;
-        address = 0;
-        write_data = 0;
-
-        $display("--------------------------------------------------");
-        $display("Time\tMemWrite MemRead Address   WriteData          ReadData");
-        $display("--------------------------------------------------");
-        
-        #10;
-        reset = 0;
-        
-        address = 64'd100;
-        write_data = 64'h1122334455667788;
-        MemWrite = 1;
-        #10;
-
-        MemWrite = 0;
-        
-        MemRead = 1;
-        #10;   // One clock latency
-
-        $display("%0t\t%b\t%b\t%0d\t%h\t%h",
-                 $time, MemWrite, MemRead,
-                 address, write_data, read_data);
-
-        MemRead = 0;
-        
-        address = 64'd200;
-        write_data = 64'hAABBCCDDEEFF0011;
-        MemWrite = 1;
-        #10;
-
-        MemWrite = 0;
-
-        MemRead = 1;
-        #10;
-
-        $display("%0t\t%b\t%b\t%0d\t%h\t%h",
-                 $time, MemWrite, MemRead,
-                 address, write_data, read_data);
-
-        MemRead = 0;
-
-        $display("--------------------------------------------------");
-
-        #20;
-        $finish;
+        forever #5 clk = ~clk;
     end
 
-endmodule
+    task run_test;
+        input [4:0] tno;
+        input t_reset;
+        input t_MemWrite;
+        input t_MemRead;
+        input [63:0] t_address;
+        input [63:0] t_write_data;
+        input [63:0] expected;
+        begin
+            @(negedge clk);
+            reset      = t_reset;
+            MemWrite   = t_MemWrite;
+            MemRead    = t_MemRead;
+            address    = t_address;
+            write_data = t_write_data;
 
+            @(posedge clk);
+            #2;
+
+            $display("Test %0d", tno);
+            $display("Reset=%b MemWrite=%b MemRead=%b Addr=%0d",reset, MemWrite, MemRead, address);
+            $display("WriteData=%h", write_data);
+            $display("ReadData =%h", read_data);
+
+            if (read_data === expected)
+                $display("PASS\n");
+            else begin
+                $display("FAIL");
+                $display("Expected = %h\n", expected);
+            end
+        end
+    endtask
+
+    initial begin
+        $dumpfile("Data_Memory_tb.vcd");
+        $dumpvars(0, Data_Memory_tb);
+
+        run_test(1, 1'b0, 1'b1, 1'b1,64'd8,64'hDEADBEEFCAFEBABE,64'hDEADBEEFCAFEBABE);
+        run_test(2, 1'b0, 1'b0, 1'b1,64'd8,64'h1234567890ABCDEF,64'hDEADBEEFCAFEBABE);
+        run_test(3, 1'b0, 1'b0, 1'b0,64'd16,64'd0,64'd0);
+
+        #20 $finish;
+    end
+endmodule
