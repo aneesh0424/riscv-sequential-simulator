@@ -1,4 +1,4 @@
-module control(input[6:0] opcode, output Branch,MemRead,MemToReg, output[1:0] ALUOp, output MemWrite, ALUSrc,reg_write_en);
+module control(input[6:0] opcode, output Branch,MemRead,MemToReg, output[1:0] ALUOp, output MemWrite,ALUSrc,reg_write_en);
     
     localparam R_type = 7'b0110011;
     localparam I_type = 7'b0010011;
