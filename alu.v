@@ -63,7 +63,7 @@ module and64(input [63:0]a, b, output [63:0]out, output zero);
 endmodule
 
 
-module alu_64_bit(input [63:0]a,b, input [3:0]ALUControl, output [63:0]result, output zero_flag);
+module alu_64_bit(input [63:0]a,b, input [3:0]opcode, output [63:0]result, output zero_flag);
 
     localparam  ADD_Oper  = 4'b0010,
                 OR_Oper   = 4'b0001,
@@ -84,7 +84,7 @@ module alu_64_bit(input [63:0]a,b, input [3:0]ALUControl, output [63:0]result, o
 
     always @(*) begin
 
-        case(ALUControl)
+        case(opcode)
 
             ADD_Oper: begin
                 res_sel = add_out;
