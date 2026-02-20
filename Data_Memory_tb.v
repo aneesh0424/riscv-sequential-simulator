@@ -7,7 +7,7 @@ module Data_Memory_tb;
     reg reset;
     reg MemRead;
     reg MemWrite;
-    reg [63:0] address;
+    reg [9:0] address;
     reg [63:0] write_data;
     wire [63:0] read_data;
 
@@ -31,7 +31,7 @@ module Data_Memory_tb;
         input t_reset;
         input t_MemWrite;
         input t_MemRead;
-        input [63:0] t_address;
+        input [9:0] t_address;
         input [63:0] t_write_data;
         input [63:0] expected;
         begin
@@ -63,9 +63,9 @@ module Data_Memory_tb;
         $dumpfile("Data_Memory_tb.vcd");
         $dumpvars(0, Data_Memory_tb);
 
-        run_test(1, 1'b0, 1'b1, 1'b1,64'd8,64'hDEADBEEFCAFEBABE,64'hDEADBEEFCAFEBABE);
-        run_test(2, 1'b0, 1'b0, 1'b1,64'd8,64'h1234567890ABCDEF,64'hDEADBEEFCAFEBABE);
-        run_test(3, 1'b0, 1'b0, 1'b0,64'd16,64'd0,64'd0);
+        run_test(1, 1'b0, 1'b1, 1'b1,10'd8,64'hDEADBEEFCAFEBABE,64'hDEADBEEFCAFEBABE);
+        run_test(2, 1'b0, 1'b0, 1'b1,10'd8,64'h1234567890ABCDEF,64'hDEADBEEFCAFEBABE);
+        run_test(3, 1'b0, 1'b0, 1'b0,10'd16,64'd0,64'd0);
 
         #20 $finish;
     end

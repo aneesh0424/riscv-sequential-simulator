@@ -1,4 +1,4 @@
-module Data_Memory(input clk,reset,MemRead,MemWrite, input[63:0] address,write_data, output[63:0] read_data);
+module Data_Memory(input clk,reset,MemRead,MemWrite, input[9:0] address, input[63:0]write_data, output[63:0] read_data);
 
     reg[7:0] Dmemory[1023:0];
     integer k;
