@@ -80,7 +80,7 @@ module control(input[6:0] opcode, output Branch,MemRead,MemToReg, output[1:0] AL
             I_type: begin
                 Branch_reg = 1'b0;
                 MemRead_reg = 1'b0;
-                MemToReg_reg = 1'b1;
+                MemToReg_reg = 1'b0;
                 ALUOp_reg = 2'b00;
                 MemWrite_reg = 1'b0;
                 ALUSrc_reg = 1'b1;
@@ -158,7 +158,7 @@ module Immediate_Generation(input[31:0] instr, output[63:0] imm);
 
             B_type:
             begin
-                imm_reg = {{51{instr[31]}},instr[31],instr[7],instr[30:25],instr[11:8],1'b0};
+                imm_reg = {{52{instr[31]}},instr[31],instr[7],instr[30:25],instr[11:8]};
             end
 
             default:
