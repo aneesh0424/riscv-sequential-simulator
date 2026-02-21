@@ -24,7 +24,7 @@ module control(input[6:0] opcode, output Branch,MemRead,MemToReg, output[1:0] AL
             I_type: begin
                 Branch_reg = 1'b0;
                 MemRead_reg = 1'b0;
-                MemToReg_reg = 1'b1;
+                MemToReg_reg = 1'b0;
                 ALUOp_reg = 2'b00;
                 MemWrite_reg = 1'b0;
                 ALUSrc_reg = 1'b1;
