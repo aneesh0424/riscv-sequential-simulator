@@ -1,118 +1,56 @@
-`timescale 1ns / 1ps
-
+`timescale 1ns/1ps
 `include "seq.v"
 
-module seq_processor_tb;    
-    // Testbench signals
+module seq_tb;
+
     reg clk;
     reg reset;
-    
-    // Instance of sequential processor
+    integer i;
+
+    // Instantiate DUT
     seq uut (
         .clk(clk),
         .reset(reset)
     );
-    
+
     // Clock generation
     initial begin
         clk = 0;
-        forever #5 clk = ~clk;  // 100MHz clock
+        forever #5 clk = ~clk;
     end
-    
-    // Test counter
-    integer test_count = 0;
-    integer i;
-    
-    // Test stimulus
+
+    // ✅ Proper debug monitor (outside initial)
+    always @(negedge clk) begin
+
+        $display("PC=%h INSTR=%h opcode=%b RegWrite=%b WriteReg=%d WriteData=%h",
+                 uut.pc_out,
+                 uut.instr,
+                 uut.instr[6:0],
+                 uut.reg_write_en,
+                 uut.instr[11:7],
+                 uut.write_data);
+        $display("MemToReg=%b", uut.MemToReg);
+        $display("read1=%h read2=%h imm=%h alu_in2=%h alu_result=%h",
+                uut.read_data1,
+                uut.read_data2,
+                uut.imm,
+                uut.alu_in2,
+                uut.alu_result);
+    end
+
     initial begin
-        $dumpfile("seq_tb.vcd");
-        $dumpvars(1, uut);
-        
-        // Initialize test counter
-        test_count = 0;
-        
-        // Reset sequence
         reset = 1;
-        #2;
+        #20;
         reset = 0;
-        
-        // Wait for instruction memory to be loaded
-        // #10;
-        
-        // Run program for 200 cycles or until halt condition
-        for (i = 0; i < 500; i = i + 1) begin
-            @(posedge clk);
 
-            // Display current processor state
-            $display("\nCycle %0d:", i + 1);
-            $display("PC: %h", uut.pc_out);
-            $display("Instruction: %h", uut.instr);
-            $display("ALU Output: %h", uut.alu_result);
-            $display("Register Write Enable: %b", uut.reg_write_en);
-            $display("Memory Write Enable: %b", uut.MemWrite);
-            $display("Branch: %b\n", uut.Branch);
-            $display("x4: %h\n", uut.register_file_inst.registers[4]);
-            // Check for program completion
-            if (uut.instr == 32'h00000000) begin
-                $display("\nProgram completed after %0d cycles", i + 1);
-                i = 1000;
-            end
-            
-            // reset at the given clock cycle
-            // essentially, resets pc (pc =0) and thus restarts the program
-            // if (i == 50) begin
-            //     reset = 1;
-            //     #2;
-            //     reset = 0;
-            // end
+        #200;
+        #10;
 
-            test_count = test_count + 1;
-        end
-        
-        // Final state display
-        $display("\n=== Final Processor State ===");
-        $display("Total Cycles: %0d", test_count);
-        
-        // Display final register file contents
-        $display("\nRegister File Contents:");
-        for (i = 0; i < 32; i = i + 1) begin
-            $display("x%0d: %h", i, uut.register_file_inst.registers[i]);
-        end
+        $display("\n==== REGISTER FILE CONTENTS ====");
+        for (i = 0; i < 32; i = i + 1)
+            $display("x%0d = %016h", i, uut.register_file_inst.registers[i]);
 
-        // // Display final data memory contents - at locations 10, 11, 12, 20, 21, 22, 40, 41, 42
-        // $display("\nData Memory Contents (Locations 10, 11, 12, 20, 21, 22, 40, 41, 42):");
-        // $display("Mem[10]: %h", uut.data_memory_inst.memory[10]);
-        // $display("Mem[11]: %h", uut.data_memory_inst.memory[11]);
-        // $display("Mem[12]: %h", uut.data_memory_inst.memory[12]);
-        // $display("Mem[20]: %h", uut.data_memory_inst.memory[20]);
-        // $display("Mem[21]: %h", uut.data_memory_inst.memory[21]);
-        // $display("Mem[22]: %h", uut.data_memory_inst.memory[22]);
-        // $display("Mem[40]: %h", uut.data_memory_inst.memory[40]);
-        // $display("Mem[41]: %h", uut.data_memory_inst.memory[41]);
-        // $display("Mem[42]: %h", uut.data_memory_inst.memory[42]);
-
-        
-        // Display final data memory contents (first 16 words)
-        // $display("\nData Memory Contents (First 16 words):");
-        // for (i = 0; i < 16; i = i + 1) begin
-        //     $display("Mem[%0d]: %h", i, uut.data_memory_inst.memory[i]);
-        // end
-        
-        #100;
         $finish;
-    end
-    
-    // Monitor for instruction changes
-    always @(uut.instr) begin
-        $display("===============================\n");
-        case (uut.instr[6:0])
-            7'b0110011: $display("R-type instruction");
-            7'b0010011: $display("I-type instruction");
-            7'b0000011: $display("Load instruction");
-            7'b0100011: $display("Store instruction");
-            7'b1100011: $display("Branch instruction");
-            default:    $display("Other instruction type");
-        endcase
     end
 
 endmodule
