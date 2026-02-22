@@ -34,21 +34,24 @@ module seq_tb;
     // debug monitor 
     // always @(negedge clk) begin
 
-        // $display("PC=%h INSTR=%h opcode=%b RegWrite=%b WriteReg=%d WriteData=%h",
-        //          uut.pc_out,
-        //          uut.instr,
-        //          uut.instr[6:0],
-        //          uut.reg_write_en,
-        //          uut.instr[11:7],
-        //          uut.write_data);
-        // $display("INSTR=%h", uut.instr);
-        // $display("MemToReg=%b", uut.MemToReg);
-        // $display("read1=%h read2=%h imm=%h alu_in2=%h alu_result=%h",
-        //         uut.read_data1,
-        //         uut.read_data2,
-        //         uut.imm,
-        //         uut.alu_in2,
-        //         uut.alu_result);
+    //     $display("PC=%d INSTR=%h opcode=%b RegWrite=%b WriteReg=%d WriteData=%h",
+    //              uut.pc_out,
+    //              uut.instr,
+    //              uut.instr[6:0],
+    //              uut.reg_write_en,
+    //              uut.instr[11:7],
+    //              uut.write_data);
+    //     $display("INSTR=%h", uut.instr);
+    //     $display("MemToReg=%b", uut.MemToReg);
+    //     $display("imm_shifted=%b", uut.imm_shifted);
+    //     $display("mux_pc_2=%b", uut.mux_pc_2);
+    //     $display("Branch_and_zero=%b", uut.Branch_and_zero);
+    //     $display("read1=%h read2=%h imm=%h alu_in2=%h alu_result=%h",
+    //             uut.read_data1,
+    //             uut.read_data2,
+    //             uut.imm,
+    //             uut.alu_in2,
+    //             uut.alu_result);
     // end
 
 
