@@ -53,7 +53,8 @@ module seq_tb;
 
 
     initial begin
-
+        $dumpfile("seq_tb.vcd");
+        $dumpvars(0, seq_tb);
         wait(uut.instr == 32'h00000000);
         @(posedge clk);
         #2
