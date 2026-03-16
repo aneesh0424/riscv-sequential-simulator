@@ -165,6 +165,7 @@ RISC-V-PROCESSOR/
 │   ├── register_file_tb.v
 │   └── sl1_tb.v
 ├── README.md
+├── SEQ_grading/
 ├── register_file.txt
 ├── seq.v
 └── seq_tb.v
