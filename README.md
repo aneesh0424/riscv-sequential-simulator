@@ -37,7 +37,6 @@ The complete datapath of the sequential processor is shown below:
 </p>
 
 > **Figure: Complete Datapath of the Sequential Processor**
-> *(See `Datapath_Architecture/Datapath_Architecture_seq.png` or the project report for the full schematic diagram)*
 
 The datapath follows the standard single-cycle RISC-V design with the following data flow:
 
