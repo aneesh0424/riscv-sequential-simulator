@@ -127,40 +127,47 @@ The processor is built from the following independently designed and verified mo
 ## Project Structure
 
 ```
-risc-v-sequential-processor/
-│
-├── src/                        # Verilog source files
-│   ├── pc.v                    # Program Counter
-│   ├── register_file.v         # Register File
-│   ├── Instruction_Memory.v    # Instruction Memory
-│   ├── control.v               # Control Unit
-│   ├── Immediate_Generation.v  # Immediate Generator
-│   ├── alu_control.v           # ALU Control
-│   ├── alu.v                   # 64-bit ALU
-│   ├── Data_Memory.v           # Data Memory
-│   ├── mux2_1.v                # 2:1 Multiplexer
-│   ├── adder64.v               # 64-bit Adder
-│   ├── sl1.v                   # Shift Left by 1
-│   └── seq.v                   # Top-Level Sequential Processor
-│
-├── tb/                         # Testbench files
+RISC-V-PROCESSOR/
+├── .git/
+├── Datapath_Architecture/
+│   └── Datapath_Architecture_seq.png
+├── Fibonacci_ins.txt
+├── Fibonacci_ins_exp.txt
+├── Fibonacci_register_file.txt
+├── instructions.txt
+├── instructions_exp.txt
+├── IPA_Sequential_Project_Doc.pdf
+├── Report/
+│   └── IPA_Sequential_Project_Report.pdf
+├── modules/
+│   ├── adder64.v
+│   ├── alu.v
+│   ├── alu_control.v
+│   ├── and2.v
+│   ├── control.v
+│   ├── Data_Memory.v
+│   ├── Immediate_Generation.v
+│   ├── Instruction_Memory.v
+│   ├── mux2_1.v
+│   ├── pc.v
+│   ├── register_file.v
+│   └── sl1.v
+├── modules_tb/
+│   ├── adder64_tb.v
+│   ├── alu_control_tb.v
+│   ├── alu_tb.v
+│   ├── control_tb.v
+│   ├── Data_Memory_tb.v
+│   ├── Immediate_Generation_tb.v
+│   ├── Instruction_Memory_tb.v
+│   ├── mux2_1_tb.v
 │   ├── pc_tb.v
 │   ├── register_file_tb.v
-│   ├── Instruction_Memory_tb.v
-│   ├── control_tb.v
-│   ├── Immediate_Generation_tb.v
-│   ├── alu_control_tb.v
-│   ├── alu_64_bit_tb.v
-│   ├── Data_Memory_tb.v
-│   ├── mux2_1_tb.v
-│   ├── adder64_tb.v
-│   ├── sl1_tb.v
-│   └── seq_tb.v
-│
-├── instructions.txt            # Hex-encoded program instructions
-├── docs/
-│   └── IPA_Sequential_Project_Report.pdf
-└── README.md
+│   └── sl1_tb.v
+├── README.md
+├── register_file.txt
+├── seq.v
+└── seq_tb.v
 ```
 
 ---
