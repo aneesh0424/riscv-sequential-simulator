@@ -1,18 +1,6 @@
 # RISC-V Sequential Processor (RV64I)
 
-> A non-pipelined, single-cycle RISC-V processor implemented in Verilog, based on the RV64I instruction set architecture.
-
-**Submitted by:** RISCV_ASSEMBLERS  
-**Institution:** The International Institute of Information Technology, Hyderabad  
-**Date:** 22nd February 2026
-
-| Name | Roll Number |
-|------|-------------|
-| V. V. S. Aneesh | 2025122002 |
-| M. Sai Poojith | 2025122010 |
-| Anumay Rai | 2025122013 |
-
----
+A non-pipelined, single-cycle RISC-V processor implemented in Verilog, based on the RV64I instruction set architecture.
 
 ## Table of Contents
 
