@@ -165,48 +165,6 @@ risc-v-sequential-processor/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- [iVerilog](http://iverilog.icarus.com/) — Verilog simulation tool
-- [GTKWave](http://gtkwave.sourceforge.net/) *(optional)* — Waveform viewer
-
-### Simulation
-
-**Step 1: Write your assembly program and encode it to hex, then place it in `instructions.txt`.**
-
-**Step 2: Compile and run the top-level testbench:**
-
-```bash
-iverilog -o sim tb/seq_tb.v src/seq.v src/pc.v src/register_file.v \
-  src/Instruction_Memory.v src/control.v src/Immediate_Generation.v \
-  src/alu_control.v src/alu.v src/Data_Memory.v src/mux2_1.v \
-  src/adder64.v src/sl1.v
-
-vvp sim
-```
-
-**Step 3: View the register file output:**
-
-The testbench writes final register values to `register_file.txt` upon program completion.
-
-**Step 4 (Optional): Open the waveform dump in GTKWave:**
-
-```bash
-gtkwave seq_tb.vcd
-```
-
-### Running Individual Module Tests
-
-To test any individual module (e.g., the ALU):
-
-```bash
-iverilog -o alu_sim tb/alu_64_bit_tb.v src/alu.v
-vvp alu_sim
-```
-
----
 
 ## Testing & Results
 
