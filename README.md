@@ -1,280 +1,211 @@
 # RISC-V Sequential Processor (RV64I)
 
-A non-pipelined, single-cycle RISC-V processor implemented in Verilog, based on the RV64I instruction set architecture.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Datapath Architecture](#datapath-architecture)
-- [Supported Instructions](#supported-instructions)
-- [Module Descriptions](#module-descriptions)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Testing & Results](#testing--results)
-- [Conclusion](#conclusion)
-
----
+A formal Verilog implementation of a sequential, non-pipelined RISC-V processor targeting a subset of the RV64I instruction set architecture.
 
 ## Overview
 
-This project presents the design and implementation of a **sequential (non-pipelined) RISC-V processor** based on the RV64I instruction set. The processor is implemented in **Verilog** and simulated using **iVerilog**.
+This project was developed as part of the Intro to Processor Architecture coursework at the International Institute of Information Technology, Hyderabad. The design implements a modular single-cycle datapath in Verilog and verifies the processor through module-level and top-level simulation.
 
-Key characteristics:
-- Executes **one instruction at a time** in a single instruction cycle
-- No pipelining or hazard handling required
-- Fully modular design — each datapath component is an independent Verilog module
-- All modules operate **synchronously** with the clock signal
+The processor executes one instruction at a time without pipelining. As a result, the design avoids data and control hazard management while clearly exposing the fundamental stages of instruction execution: fetch, decode, execute, memory access, and write-back.
 
----
+## Team
 
-## Datapath Architecture
+| Name | Roll Number |
+|------|-------------|
+| V. V. S. Aneesh | 2025122002 |
+| M. Sai Poojith | 2025122010 |
+| Anumay Rai | 2025122013 |
 
-The complete datapath of the sequential processor is shown below:
+## Features
 
-
-<p align="center">
-  <img src="Datapath_Architecture/Datapath_Architecture_seq.png" alt="Datapath Architecture" width="700"/>
-</p>
-
-> **Figure: Complete Datapath of the Sequential Processor**
-
-The datapath follows the standard single-cycle RISC-V design with the following data flow:
-
-1. **Fetch** — PC provides the address; Instruction Memory returns the 32-bit instruction
-2. **Decode** — Control Unit decodes the opcode; Register File reads source operands
-3. **Execute** — ALU performs the required operation using operands and/or immediate values
-4. **Memory Access** — Data Memory performs load or store if required
-5. **Write-Back** — Result is written back to the destination register
-
----
+- Sequential, single-cycle RV64I-style processor datapath
+- Modular Verilog implementation with dedicated testbenches
+- 64-bit register file and ALU datapath
+- Instruction fetch from external hex memory image
+- Support for arithmetic, logical, memory, and branch instructions
+- Top-level simulation output through waveform dump and register snapshot file
 
 ## Supported Instructions
 
-| Format | Instructions |
-|--------|-------------|
+| Instruction Type | Instructions |
+|------------------|--------------|
 | R-type | `add`, `sub`, `and`, `or` |
 | I-type | `addi` |
-| Load   | `ld` |
-| Store  | `sd` |
+| Load | `ld` |
+| Store | `sd` |
 | Branch | `beq` |
 
----
+## Datapath Architecture
 
-## Module Descriptions
+The datapath architecture used in the processor is shown below.
 
-The processor is built from the following independently designed and verified modules:
+<p align="center">
+  <img src="Datapath_Architecture/Datapath_Architecture_seq.png" alt="Datapath architecture of the sequential RISC-V processor" width="760" />
+</p>
 
-### 1. Program Counter (`pc.v`)
-- 64-bit register storing the address of the current instruction
-- Updates on every rising clock edge
-- Resets to `0x0000...0000` when the reset signal is asserted
+The datapath follows the standard single-cycle execution model:
 
-### 2. Register File (`register_file.v`)
-- 32 × 64-bit general-purpose registers (RV64I architecture)
-- 2 combinational read ports, 1 synchronous write port
-- Register `x0` is hardwired to zero and cannot be written
+1. The Program Counter supplies the instruction address.
+2. Instruction Memory returns the 32-bit instruction.
+3. The Control Unit decodes the opcode and generates control signals.
+4. The Register File provides source operands.
+5. The Immediate Generator and ALU Control prepare execution inputs.
+6. The ALU performs arithmetic or logical computation.
+7. Data Memory serves load and store instructions.
+8. The selected result is written back to the destination register.
 
-### 3. Instruction Memory (`Instruction_Memory.v`)
-- Read-only memory, 4096 bytes, byte-addressed
-- Loads instructions from `instructions.txt` at initialization
-- Outputs a 32-bit instruction in **Big-Endian** format
+## Module Summary
 
-### 4. Control Unit (`control.v`)
-- Decodes the 7-bit opcode and generates all datapath control signals
-- Combinational logic — outputs update immediately on opcode change
+| File | Description |
+|------|-------------|
+| `pc.v` | Program counter for instruction sequencing |
+| `register_file.v` | 32 x 64-bit general-purpose register file |
+| `Instruction_Memory.v` | Byte-addressed instruction memory initialized from `instructions.txt` |
+| `control.v` | Main control unit for opcode decoding |
+| `Immediate_Generation.v` | Sign-extension and immediate extraction logic |
+| `alu_control.v` | ALU control signal generation |
+| `alu.v` | 64-bit arithmetic and logic unit |
+| `Data_Memory.v` | Byte-addressed data memory for `ld` and `sd` |
+| `mux2_1.v` | 2:1 multiplexer used in datapath selection |
+| `adder64.v` | 64-bit adder used for address and PC-related arithmetic |
+| `sl1.v` | Shift-left-by-one unit for branch offset alignment |
+| `and2.v` | Logical AND helper module |
+| `seq.v` | Top-level sequential processor integration |
 
-| Instruction | ALUSrc | MemToReg | RegWrite | MemRead | MemWrite | Branch | ALUOp |
-|-------------|--------|----------|----------|---------|----------|--------|-------|
-| R-format    | 0      | 0        | 1        | 0       | 0        | 0      | 10    |
-| `ld`        | 1      | 1        | 1        | 1       | 0        | 0      | 00    |
-| `sd`        | 1      | X        | 0        | 0       | 1        | 0      | 00    |
-| `beq`       | 0      | X        | 0        | 0       | 0        | 1      | 01    |
+## Repository Structure
 
-### 5. Immediate Generator (`Immediate_Generation.v`)
-- Extracts and **sign-extends** immediate fields to 64 bits
-- Supports I-type, load, S-type, and B-type instruction formats
+This repository uses a flat top-level layout rather than separate `src/` and `tb/` directories.
 
-### 6. ALU Control (`alu_control.v`)
-- Generates a 4-bit control signal for the ALU based on `ALUOp` and `funct3`/`funct7` fields
-
-| ALUOp | Operation | ALU Control |
-|-------|-----------|-------------|
-| 00    | ADD (for `ld`/`sd`) | 0010 |
-| 01    | SUB (for `beq`)     | 0110 |
-| 10    | R-type (`add`/`sub`/`and`/`or`) | see funct bits |
-
-### 7. 64-bit ALU (`alu.v`)
-- Performs ADD, SUB, AND, OR on 64-bit operands
-- Outputs a **zero flag** used for branch decisions
-- Uses dedicated 64-bit submodules for each operation
-
-### 8. Data Memory (`Data_Memory.v`)
-- 1024 bytes of byte-addressable storage
-- Supports 64-bit load (`ld`) and store (`sd`) operations in **Big-Endian** format
-- Synchronous writes on rising clock edge; combinational reads
-
-### 9. 2:1 Multiplexer (`mux2_1.v`)
-- Selects between two 64-bit inputs based on a single control signal
-- Used for ALU source selection, PC source selection, and write-back data selection
-
-### 10. 64-bit Adder (`adder64.v`)
-- Combinational adder used for PC+4 increment and branch target computation
-
-### 11. Shift Left by 1 (`sl1.v`)
-- Performs a logical left shift by 1 bit on the 64-bit immediate value
-- Used to align branch offsets to instruction boundaries (multiplies offset by 2)
-
----
-
-## Project Structure
-
-```
-risc-v-sequential-processor/
-│
-├── src/                        # Verilog source files
-│   ├── pc.v                    # Program Counter
-│   ├── register_file.v         # Register File
-│   ├── Instruction_Memory.v    # Instruction Memory
-│   ├── control.v               # Control Unit
-│   ├── Immediate_Generation.v  # Immediate Generator
-│   ├── alu_control.v           # ALU Control
-│   ├── alu.v                   # 64-bit ALU
-│   ├── Data_Memory.v           # Data Memory
-│   ├── mux2_1.v                # 2:1 Multiplexer
-│   ├── adder64.v               # 64-bit Adder
-│   ├── sl1.v                   # Shift Left by 1
-│   └── seq.v                   # Top-Level Sequential Processor
-│
-├── tb/                         # Testbench files
-│   ├── pc_tb.v
-│   ├── register_file_tb.v
-│   ├── Instruction_Memory_tb.v
-│   ├── control_tb.v
-│   ├── Immediate_Generation_tb.v
-│   ├── alu_control_tb.v
-│   ├── alu_64_bit_tb.v
-│   ├── Data_Memory_tb.v
-│   ├── mux2_1_tb.v
-│   ├── adder64_tb.v
-│   ├── sl1_tb.v
-│   └── seq_tb.v
-│
-├── instructions.txt            # Hex-encoded program instructions
-├── docs/
-│   └── IPA_Sequential_Project_Report.pdf
-└── README.md
+```text
+RISC-V-PROCESSOR/
+|-- README.md
+|-- seq.v
+|-- seq_tb.v
+|-- pc.v
+|-- pc_tb.v
+|-- register_file.v
+|-- register_file_tb.v
+|-- Instruction_Memory.v
+|-- Instruction_Memory_tb.v
+|-- control.v
+|-- control_tb.v
+|-- Immediate_Generation.v
+|-- Immediate_Generation_tb.v
+|-- alu_control.v
+|-- alu_control_tb.v
+|-- alu.v
+|-- alu_tb.v
+|-- Data_Memory.v
+|-- Data_Memory_tb.v
+|-- mux2_1.v
+|-- mux2_1_tb.v
+|-- adder64.v
+|-- adder64_tb.v
+|-- sl1.v
+|-- sl1_tb.v
+|-- and2.v
+|-- instructions.txt
+|-- instructions_exp.txt
+|-- Fibonacci_ins.txt
+|-- Fibonacci_ins_exp.txt
+|-- register_file.txt
+|-- Fibonacci_register_file.txt
+|-- Datapath_Architecture/
+|   `-- Datapath_Architecture_seq.png
+|-- IPA_Sequential_Project_Doc.pdf
+|-- IPA_Sequential_Project_Report.pdf
+`-- team_info.txt
 ```
 
----
+## Input and Output Artifacts
 
-## Getting Started
+| File | Purpose |
+|------|---------|
+| `instructions.txt` | Active instruction-memory image used by the top-level processor simulation |
+| `instructions_exp.txt` | Human-readable explanation of the basic instruction test program |
+| `Fibonacci_ins.txt` | Hex-encoded Fibonacci benchmark program |
+| `Fibonacci_ins_exp.txt` | Human-readable explanation of the Fibonacci benchmark |
+| `register_file.txt` | Register dump produced by the top-level simulation |
+| `Fibonacci_register_file.txt` | Expected register dump for the Fibonacci benchmark |
+
+## Simulation and Usage
 
 ### Prerequisites
 
-- [iVerilog](http://iverilog.icarus.com/) — Verilog simulation tool
-- [GTKWave](http://gtkwave.sourceforge.net/) *(optional)* — Waveform viewer
+- Icarus Verilog (`iverilog` and `vvp`)
+- GTKWave for optional waveform inspection
 
-### Simulation
+### Running the Top-Level Processor
 
-**Step 1: Write your assembly program and encode it to hex, then place it in `instructions.txt`.**
+The top-level testbench writes a waveform file named `seq_tb.vcd` and a final register dump to `register_file.txt`.
 
-**Step 2: Compile and run the top-level testbench:**
-
-```bash
-iverilog -o sim tb/seq_tb.v src/seq.v src/pc.v src/register_file.v \
-  src/Instruction_Memory.v src/control.v src/Immediate_Generation.v \
-  src/alu_control.v src/alu.v src/Data_Memory.v src/mux2_1.v \
-  src/adder64.v src/sl1.v
-
-vvp sim
+```powershell
+iverilog -o seq_sim seq_tb.v
+vvp seq_sim
 ```
 
-**Step 3: View the register file output:**
+To inspect the waveform:
 
-The testbench writes final register values to `register_file.txt` upon program completion.
-
-**Step 4 (Optional): Open the waveform dump in GTKWave:**
-
-```bash
+```powershell
 gtkwave seq_tb.vcd
 ```
 
-### Running Individual Module Tests
+### Running Individual Module Testbenches
 
-To test any individual module (e.g., the ALU):
+Each testbench includes its corresponding source file, so it can be compiled directly from the repository root.
 
-```bash
-iverilog -o alu_sim tb/alu_64_bit_tb.v src/alu.v
+Examples:
+
+```powershell
+iverilog -o adder64_sim adder64_tb.v
+vvp adder64_sim
+
+iverilog -o alu_sim alu_tb.v
 vvp alu_sim
 ```
 
----
+### Changing the Program Under Test
 
-## Testing & Results
+To run a different program on the sequential processor:
 
-### Basic Functionality Test
+1. Replace the contents of `instructions.txt` with the required hex-encoded instruction stream.
+2. Re-run the top-level simulation using `seq_tb.v`.
+3. Inspect `register_file.txt` for the final register state.
 
-A basic test program covering all supported instruction types was executed. The assembly program performed arithmetic, logical, load/store, and branch operations.
+## Verification Summary
 
-**Register File Output (after execution):**
+The project includes dedicated testbenches for the core datapath modules as well as an integrated processor testbench.
 
-```
-x1  = 000000000000000f   (15)
-x2  = fffffffffffffffb   (-5)
-x3  = 000000000000000a   (10)
-x4  = 000000000000000a   (10)
-x5  = 000000000000000a   (10)
-x6  = fffffffffffffffb   (-5)
-x7  = fffffffffffffffb   (-5)
-x10 = 000000000000000f   (15)
-x11 = fffffffffffffffb   (-5)
-x13 = 000000000000001e   (30)
+### Basic Instruction Validation
 
-Total instructions executed: 15
-```
+The provided basic program validates arithmetic, logical, load/store, and branch behavior using the instruction sequence documented in `instructions_exp.txt`.
 
----
+Representative observed outcomes include:
 
-### Fibonacci Sequence Test
+- `x1 = 15` after `add`
+- `x2 = -5` after `sub`
+- `x10 = 15` after `ld`
+- `x11 = -5` after memory reload
+- `x13 = 30` after the final arithmetic operation
 
-The processor was validated by computing the **10th Fibonacci number** using a loop and branch instructions.
+### Fibonacci Benchmark
 
-**Assembly Program:**
+The repository also contains a Fibonacci benchmark program and its expected output files:
 
-```asm
-addi x1, x0, 10      # Initialize loop counter n = 10
-addi x2, x0, 0       # a = 0
-addi x3, x0, 1       # b = 1
-addi x1, x1, -1      # n = n - 1
-beq  x1, x0, 20      # If n == 0, exit loop
-add  x4, x2, x3      # temp = a + b
-addi x2, x3, 0       # a = b
-addi x3, x4, 0       # b = temp
-beq  x0, x0, -20     # Unconditional branch back to loop
-```
+- `Fibonacci_ins.txt`
+- `Fibonacci_ins_exp.txt`
+- `Fibonacci_register_file.txt`
 
-**Register File Output (after execution):**
+The expected result confirms correct iterative execution of the loop and correct branch behavior. In the supplied expected register dump, the final value corresponding to the 10th Fibonacci number is stored in `x3 = 55`, and the recorded instruction count is `60`.
 
-```
-x0  = 0000000000000000   (0)
-x1  = 0000000000000000   (0)   ← loop counter exhausted
-x2  = 0000000000000022   (34)  ← 9th Fibonacci number
-x3  = 0000000000000037   (55)  ← 10th Fibonacci number
-x4  = 0000000000000037   (55)  ← last computed value
+## Documentation
 
-Total instructions executed: 60
-```
+Additional project documentation is included in the repository:
 
-The result confirms correct execution: 6 instructions per iteration × 10 iterations = **60 total instructions**.
-
----
+- `IPA_Sequential_Project_Report.pdf`
+- `IPA_Sequential_Project_Doc.pdf`
+- `Datapath_Architecture/Datapath_Architecture_seq.png`
 
 ## Conclusion
 
-A sequential, non-pipelined RISC-V processor (RV64I) was successfully designed, implemented in Verilog, and verified through simulation. All datapath modules were developed independently, tested with dedicated testbenches, and integrated into a complete working processor. The design correctly executes arithmetic, logical, memory, and branch instructions, as validated by both the basic test and the Fibonacci benchmark.
-
----
-
-## License
-
-This project was developed as part of an academic course at IIIT Hyderabad. All rights reserved by the authors.
+This project demonstrates the complete design and verification of a sequential RISC-V processor in Verilog. The repository is structured around modular datapath components, individual validation testbenches, and an integrated processor simulation flow. It serves both as a functional implementation and as a compact academic reference for single-cycle processor design.
