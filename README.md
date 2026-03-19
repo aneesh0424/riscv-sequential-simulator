@@ -238,3 +238,6 @@ The result confirms correct execution: 6 instructions per iteration × 10 iterat
 A sequential, non-pipelined RISC-V processor (RV64I) was successfully designed, implemented in Verilog, and verified through simulation. All datapath modules were developed independently, tested with dedicated testbenches, and integrated into a complete working processor. The design correctly executes arithmetic, logical, memory, and branch instructions, as validated by both the basic test and the Fibonacci benchmark.
 
 ---
+
+
+> **Related Project:** [RISC-V Pipelined Simulator](https://github.com/poojith06/riscv-pipeline-simulator) — the 5-stage pipelined version of this processor with hazard detection and data forwarding.
